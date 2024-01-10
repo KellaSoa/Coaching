@@ -1,0 +1,115 @@
+@import "variables.less";
+
+
+
+.status{
+
+  span{
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .new {
+    background: #c8c8c8;
+  }
+
+  .waiting{
+    background: @color_orange;
+  }
+
+  .success { 
+    background: @color_green;
+  }
+
+  .failed{
+    background: @color_red;
+  }
+
+  .cancelled {
+    background: #BD8D8A;
+  }
+}
+
+body.wp-admin{
+  background: #F0F0F1;
+}
+
+#wpcontent{
+
+  .view-inscription{
+    .panel{
+      position: relative;
+      min-width: 255px;
+      border: 1px solid #c3c4c7;
+      box-shadow: 0 1px 1px rgba(0,0,0,.04);
+      background: #fff;
+
+      .panel-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #c3c4c7;
+
+        h2{
+          font-size: 15px;
+          padding: 8px 12px;
+          margin: 0;
+          line-height: 1.4;
+          font-weight: 600;
+        }
+      }
+
+
+      .panel-body{
+        padding: 23px 24px 12px;
+      }
+
+      h2 {
+        margin: 0;
+        font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",sans-serif;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 1.2;
+        text-shadow: 1px 1px 1px #fff;
+        padding: 0;
+      }
+
+      p {
+        color: #777;
+      }
+
+
+      h3, h4 {
+        color: #333;
+        margin: 1.33em 0 0;
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      .col-cnt {
+        margin-top: 14px;
+      }
+      .form-group{
+        margin-bottom: 5px;
+        font-size: 14px;
+
+        label{
+          text-transform: uppercase;
+          letter-spacing: 0.7px;
+          vertical-align: top;
+          margin: 0;
+        }
+
+      }
+    }
+  }
+}
+
+th#id {
+  width: 3%;
+}
+
+

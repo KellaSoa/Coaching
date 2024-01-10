@@ -1,0 +1,130 @@
+.bg-main {
+  background: #FFF8F2;
+}
+.bg-red {
+  background: #D0453C;
+}
+.bg-orange {
+  background: #E7A058;
+}
+.navbar-nav {
+  display: flex;
+  gap: 30px;
+  font-size: 16.8px;
+  font-weight: 400;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.btn-orange {
+  border-radius: 95px;
+  border: 2px solid #E7A058;
+  color: #E7A058;
+  background: white;
+  width: 170px;
+  height: 54.8px;
+  gap: 10.5px;
+}
+.btn-red {
+  border-radius: 95px;
+  border: 2px solid #D0453C;
+  background: #D0453C;
+  color: #fff;
+  height: 58.8px;
+  width: 214.2px;
+}
+.btn-green {
+  border-radius: 95px;
+  border: 2px solid #65C0A0;
+  background: #65C0A0;
+  color: #fff;
+  height: 58.8px;
+  width: 214.2px;
+}
+.btn-redBgWhite {
+  border-radius: 95px;
+  border: 2px solid #D0453C;
+  background: white;
+  color: #D0453C;
+  height: 58.8px;
+  width: 214.2px;
+}
+.btn-whiteBgWhite {
+  border-radius: 95px;
+  border: 2px solid white;
+  background: none;
+  color: white;
+  height: 58.8px;
+  width: 214.2px;
+}
+.btn-white {
+  border-radius: 95px;
+  border: 2px solid #fff;
+  background: none;
+  color: #fff;
+  height: 58.8px;
+  width: 214.2px;
+}
+
+.btn-red-dropdown {
+  color: white;
+  background: #D0453C;
+  width: 454px;
+  height: 52px;
+  border-radius: 14px;
+  font-size: 18.8px;
+  line-height: 16.8px;
+  font-weight: 500;
+  text-align: left;
+}
+h1 {
+  font-size: 75px;
+  line-height: 74.2px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 54.8px;
+  line-height: 56.2px;
+  font-weight: 600;
+  text-align: center;
+}
+h3 {
+  font-size: 35.7px;
+  line-height: 42px;
+  font-weight: 500;
+}
+h4 {
+  font-size: 25.9px;
+  line-height: 31.5px;
+  font-weight: 400;
+  text-align: center;
+}
+h6 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  font-size: 21.7px;
+  line-height: 14.7px;
+}
+.title {
+  font-weight: 500;
+  font-size: 21.7px;
+  line-height: 14.7px;
+  text-transform: uppercase;
+}
+.description {
+  font-weight: 600;
+  line-height: 56.2px;
+  text-align: center;
+  font-size: 47.2px;
+  color: #284D57;
+}
+p {
+  font-size: 18.9px;
+  line-height: 31.5px;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+   
